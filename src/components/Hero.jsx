@@ -1,13 +1,10 @@
 import React from "react";
-
+import award from "../assets/1.png";
+import awardCeremony from "../assets/2.png";
 const Hero = () => {
   return (
     <div className="hero-cont">
-      <img
-        src="../src/assets/1.png"
-        alt="Energy Conservation Award"
-        className="award"
-      />
+      <img src={award} alt="Energy Conservation Award" className="award" />
       <div className="hero-body">
         <h3>
           C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the
@@ -26,7 +23,7 @@ const Hero = () => {
             with IoT enabled control panel.
           </li>
         </ul>
-        <img src="../src/assets/2.png" alt="Director Receiving the Award" />
+        <img src={awardCeremony} alt="Director Receiving the Award" />
         <p>
           Government of India has awarded the{" "}
           <b>"National Energy Conservation Award 2018"</b>. Mr. G. Selvaraj,
